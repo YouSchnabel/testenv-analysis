@@ -1,0 +1,11 @@
+name: testenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - root
+  - python=3.9
+  - pip
+  - pip:
+      - pyvo
+      - scipy
